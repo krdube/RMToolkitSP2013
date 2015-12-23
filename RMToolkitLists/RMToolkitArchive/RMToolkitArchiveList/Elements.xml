@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RMToolkitArchiveList"
+                OnQuickLaunch="TRUE"
+                TemplateType="10010"
+                Url="Lists/RMToolkitArchiveList"
+                Description="RMToolkit List for managing records destined for Archives according to their retention policy">
+  </ListInstance>
+</Elements>

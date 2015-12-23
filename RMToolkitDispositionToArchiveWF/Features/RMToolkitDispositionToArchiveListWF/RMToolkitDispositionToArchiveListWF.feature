@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7494c878-1ec5-4521-8874-c13d2175f1f7" description="RM Toolkit Workflow To Get Approval for Archive" featureId="7494c878-1ec5-4521-8874-c13d2175f1f7" imageUrl="/RMToolkitConfig/TLOGO.png" receiverAssembly="$SharePoint.Project.AssemblyFullName$" receiverClass="$SharePoint.Type.660a3833-ef6c-4dd4-a100-b4f0864a5167.FullName$" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="RMToolkitDispositionWF_GetApprovalForArchive" version="AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgBAAAAAAAAAAAAAAAAAAAACw==" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+  <projectItems>
+    <projectItemReference itemId="a0f01324-4aca-48d7-ad87-20def5b8727e" />
+  </projectItems>
+</feature>

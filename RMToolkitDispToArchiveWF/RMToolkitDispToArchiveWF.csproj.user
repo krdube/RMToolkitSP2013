@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://sp2013/sites/rmtestsc/</SharePointSiteUrl>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectItemStore Id="{03695446-0ec0-41a3-bdd4-5661bb9dbe1a}">
+          <DisplayName>RMToolkitArchiveApprovalWF</DisplayName>
+          <HistoryList>Workflow History</HistoryList>
+          <HistoryListGuid>{83a5ae7f-3661-431c-8325-19aea942a28a}</HistoryListGuid>
+          <TaskList>Tasks</TaskList>
+          <TaskListGuid>{31f01ac4-31fd-4bd9-9073-9191415fee8d}</TaskListGuid>
+          <AutoAssociate>false</AutoAssociate>
+          <ManualStart>true</ManualStart>
+          <ListURL>Lists/RMToolkitArchiveList</ListURL>
+          <TargetList>RMToolkitArchiveList</TargetList>
+          <TargetListGuid>{00000000-0000-0000-0000-000000000000}</TargetListGuid>
+          <StartOnCreate>true</StartOnCreate>
+          <StartOnChange>false</StartOnChange>
+        </ProjectItemStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

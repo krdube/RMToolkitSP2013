@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="69340845-8f63-4491-974c-e85c98c96a4e" solutionId="69340845-8f63-4491-974c-e85c98c96a4e" resetWebServer="false" sharePointProductVersion="15.0" name="RMToolkitDispositionToDeletionListWF" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="db91be10-7b79-4a92-bba7-79e1f1598a88" />
+  </features>
+</package>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+   Id="CustomRibbonButton"
+   Location="CommandUI.Ribbon"
+   RegistrationId="100"
+   RegistrationType="List">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+         Location="Ribbon.ListItem.Groups._children">
+          <Group
+            Id="Ribbon.ListItemTab.RMToolkit"
+            Sequence="61"
+            Description="RMToolkit"
+            Title="RMToolkit"
+            Command="EnableCustomGroup"
+            Template="Ribbon.Templates.RMToolkit">
+            <Controls Id="Ribbon.ListItemTab.RMToolkit.Controls">
+              <Button
+               Id="Ribbon.ListItem.DeleteRecord"
+               Command="DeleteRecords"
+               Image16by16="/_layouts/images/DELITEM.gif"
+               Image32by32="/_layouts/images/DELITEM.gif"
+               LabelText="Delete Records"
+               TemplateAlias="RowI"
+               ToolTipTitle="Delete Record"
+               ToolTipDescription="Initiates the record deletion worfkflow on the selected records."
+               Sequence="20" />
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+        <!-- Console Group's Template -->
+        <CommandUIDefinition Location="Ribbon.Templates._children" >
+          <GroupTemplate Id="Ribbon.Templates.RMToolkit">
+            <Layout Title="RMToolkit" LayoutTitle="RMToolkit">
+              <Section Alignment ="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode ="Large" TemplateAlias="RowI"/>
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.ListItem.Scaling._children">
+          <MaxSize Id="Ribbon.ListItemTab.RMToolkit.Scaling.MaxSize" Sequence="35"
+                   GroupId="Ribbon.ListItemTab.RMToolkit" Size="RMToolkit"/>
+        </CommandUIDefinition>
+
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="DeleteRecords" CommandAction="javascript:processSelectedListItemsViaCAML();" />
+        <CommandUIHandler Command="EnableCustomGroup" CommandAction =""/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction
+    Id="DeleteRecords"
+    Location="ScriptLink"
+    ScriptSrc="/_layouts/RMToolkit/js/DeleteBtnLib.js">
+  </CustomAction>
+</Elements>
+

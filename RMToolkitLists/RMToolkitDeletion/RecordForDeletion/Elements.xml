@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Boolean"
+         DisplayName="ApprovedForDeletion"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Group="RMToolkit"
+         ID="{1617f6d2-6f7a-465c-80a8-a0896a82659e}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="ApprovedForDeletion"
+         Name="ApprovedForDeletion"
+         Overwrite="TRUE"
+         DisplaceOnUpgrade="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>0</Default>
+  </Field>
+
+  <Field Type="Boolean"
+         DisplayName="RetainRecord"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Group="RMToolkit"
+         ID="{1F6FD904-60D9-49D4-BDE2-ED7D1E16772E}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="RetainRecord"
+         Name="RetainRecord"
+         Overwrite="TRUE"
+         DisplaceOnUpgrade="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>0</Default>
+  </Field>
+
+  <Field Type="Boolean"
+         DisplayName="RecordDeleted"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE" Group="RMToolkit"
+         ID="{5fd83616-f486-46cf-89a5-885b920ff592}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="RecordDeleted"
+         Name="RecordDeleted"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Default>0</Default>
+  </Field>
+
+  <Field Type="DateTime"
+         DisplayName="DeletionDate"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="DateOnly"
+         Group="RMToolkit"
+         ID="{a0677aa4-0969-4c70-8441-d3b2e4b2befc}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="DeletionDate"
+         Name="DeletionDate"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+         DisplayName="DocumentLibrary"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="RMToolkit"
+         ID="{1fd4e52e-4fa4-4c6e-91e8-79bf24a4e90b}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="DocumentLibrary"
+         Name="DocumentLibrary"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="URL"
+         DisplayName="DocumentURL"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="Hyperlink"
+         Group="RMToolkit"
+         ID="{83045ca4-3dfd-40ae-aa8d-b8304c56d920}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="DocumentURL"
+         Name="DocumentURL"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="URL"
+         DisplayName="SiteCollectionURL"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         Format="Hyperlink" Group="RMToolkit"
+         ID="{7bcefff3-1356-4d7b-9de2-281531a3ca55}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="SiteCollectionURL"
+         Name="SiteCollectionURL"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+         DisplayName="Site"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="RMToolkit"
+         ID="{12f1906f-ae13-40f1-83ac-d907543e065b}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="Site"
+         Name="Site"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+         DisplayName="ParentFolder"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="RMToolkit"
+         ID="{27595BE8-D0C5-42C0-A979-656BB385F94C}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="ParentFolder"
+         Name="ParentFolder"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+         DisplayName="CertificateName"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="RMToolkit"
+         ID="{793D7AA0-DF18-4A9F-B982-A8CFD4FAECF4}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="CertificateName"
+         Name="CertificateName"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  
+  <Field Name="RetentionNotes" 
+        Type="Note"
+        DisplayName="RetentionNotes"
+        Required="FALSE"
+        NumLines="5"
+        RichText="FALSE"
+        Sortable="FALSE"
+        Group="RMToolkit"
+        ID="{4EC11F83-8677-4765-9A99-83BD909E9D23}"
+        SourceID="http://schemas.microsoft.com/sharepoint/v3"
+        StaticName="RetentionNotes"
+        AllowHyperlink="TRUE"
+        RichTextMode="Compatible" 
+        IsolateStyles="FALSE"
+        AppendOnly="FALSE"
+        xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+
+  <Field Type="Text"
+         DisplayName="Approver"
+         Required="FALSE"
+         EnforceUniqueValues="FALSE"
+         Indexed="FALSE"
+         MaxLength="255"
+         Group="RMToolkit"
+         ID="{1863F883-F68F-4B81-8246-43D3F096CEA1}"
+         SourceID="http://schemas.microsoft.com/sharepoint/v3"
+         StaticName="Approver"
+         Name="Approver"
+         Overwrite="TRUE"
+         xmlns="http://schemas.microsoft.com/sharepoint/" />
+  
+  
+  <Field Type="Text"
+        DisplayName="GlobalColumn1"
+        Required="FALSE"
+        EnforceUniqueValues="FALSE"
+        Indexed="FALSE"
+        MaxLength="255"
+        Group="RMToolkit"
+        ID="{DF2BFB50-01BB-4BF3-A1D2-57538B979F1B}"
+        SourceID="http://schemas.microsoft.com/sharepoint/v3"
+        StaticName="GlobalColumn1"
+        Name="GlobalColumn1"
+        Overwrite="TRUE"
+        xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+       DisplayName="GlobalColumn2"
+       Required="FALSE"
+       EnforceUniqueValues="FALSE"
+       Indexed="FALSE"
+       MaxLength="255"
+       Group="RMToolkit"
+       ID="{E975BE21-8619-4E22-95DA-984C7E823BB1}"
+       SourceID="http://schemas.microsoft.com/sharepoint/v3"
+       StaticName="GlobalColumn2"
+       Name="GlobalColumn2"
+       Overwrite="TRUE"
+       xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+      DisplayName="GlobalColumn3"
+      Required="FALSE"
+      EnforceUniqueValues="FALSE"
+      Indexed="FALSE"
+      MaxLength="255"
+      Group="RMToolkit"
+      ID="{3D5E3337-C2FC-4BF9-B434-24AFBF9F58DC}"
+      SourceID="http://schemas.microsoft.com/sharepoint/v3"
+      StaticName="GlobalColumn3"
+      Name="GlobalColumn3"
+      Overwrite="TRUE"
+      xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+      DisplayName="SiteColumn1"
+      Required="FALSE"
+      EnforceUniqueValues="FALSE"
+      Indexed="FALSE"
+      MaxLength="255"
+      Group="RMToolkit"
+      ID="{C1EB7800-1185-4A82-963F-D50C128B9926}"
+      SourceID="http://schemas.microsoft.com/sharepoint/v3"
+      StaticName="SiteColumn1"
+      Name="SiteColumn1"
+      Overwrite="TRUE"
+      xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+      DisplayName="SiteColumn2"
+      Required="FALSE"
+      EnforceUniqueValues="FALSE"
+      Indexed="FALSE"
+      MaxLength="255"
+      Group="RMToolkit"
+      ID="{5F178DB5-9914-4EE6-8C8E-2F968AFCBADD}"
+      SourceID="http://schemas.microsoft.com/sharepoint/v3"
+      StaticName="SiteColumn2"
+      Name="SiteColumn2"
+      Overwrite="TRUE"
+      xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+  <Field Type="Text"
+    DisplayName="SiteColumn3"
+    Required="FALSE"
+    EnforceUniqueValues="FALSE"
+    Indexed="FALSE"
+    MaxLength="255"
+    Group="RMToolkit"
+    ID="{3193A629-15F6-42FB-A95C-45CC28DBBBD5}"
+    SourceID="http://schemas.microsoft.com/sharepoint/v3"
+    StaticName="SiteColumn3"
+    Name="SiteColumn3"
+    Overwrite="TRUE"
+    xmlns="http://schemas.microsoft.com/sharepoint/" />
+
+
+
+
+
+
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100601be6203a184e77af164daa98857cac"
+               Name="RecordForDeletion"
+               Group="RMToolkit"
+               Description="List item for record that is scheduled to be deleted"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{83045ca4-3dfd-40ae-aa8d-b8304c56d920}" Name="DocumentURL" />
+      <FieldRef ID="{1617f6d2-6f7a-465c-80a8-a0896a82659e}" Name="ApprovedForDeletion" />
+      <FieldRef ID="{5fd83616-f486-46cf-89a5-885b920ff592}" Name="RecordDeleted" />
+      <FieldRef ID="{a0677aa4-0969-4c70-8441-d3b2e4b2befc}" Name="DeletionDate" />
+      <FieldRef ID="{1F6FD904-60D9-49D4-BDE2-ED7D1E16772E}" Name="RetainRecord" />
+      <FieldRef ID="{7bcefff3-1356-4d7b-9de2-281531a3ca55}" Name="SiteCollectionURL" />
+      <FieldRef ID="{1fd4e52e-4fa4-4c6e-91e8-79bf24a4e90b}" Name="DocumentLibrary" />
+      <FieldRef ID="{12f1906f-ae13-40f1-83ac-d907543e065b}" Name="Site" />
+      <FieldRef ID="{27595BE8-D0C5-42C0-A979-656BB385F94C}" Name="ParentFolder" />
+      <FieldRef ID="{4EC11F83-8677-4765-9A99-83BD909E9D23}" Name="RetentionNotes" />
+      <FieldRef ID="{793D7AA0-DF18-4A9F-B982-A8CFD4FAECF4}" Name="CertificateName "/>
+      <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
+      <FieldRef ID="{1863F883-F68F-4B81-8246-43D3F096CEA1}" Name="Approver" />
+      <FieldRef ID="{DF2BFB50-01BB-4BF3-A1D2-57538B979F1B}" Name="GlobalColumn1" />
+      <FieldRef ID="{E975BE21-8619-4E22-95DA-984C7E823BB1}" Name="GlobalColumn2" />
+      <FieldRef ID="{3D5E3337-C2FC-4BF9-B434-24AFBF9F58DC}" Name="GlobalColumn3" />
+      <FieldRef ID="{C1EB7800-1185-4A82-963F-D50C128B9926}" Name="SiteColumn1" />
+      <FieldRef ID="{5F178DB5-9914-4EE6-8C8E-2F968AFCBADD}" Name="SiteColumn2" />
+      <FieldRef ID="{3193A629-15F6-42FB-A95C-45CC28DBBBD5}" Name="SiteColumn3" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

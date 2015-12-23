@@ -1,0 +1,30 @@
+
+-get certificate output correct - done
+-update deleted date -done
+-implement delete code - done
+-do archive version of workflow -done
+-implement timer job portion for archive - done
+-add archive column definition -done
+-make sure timer job not called tookit
+-expiry button - done
+-two minute retention for testing
+-check on memory disposing of objects esp for timer job
+-try catch where necessary - code review, commenting
+-get mike to buy mass edit tool
+-figure out why script feature not working - done
+
+need to enable disable expiry button if items are selected -done
+http://www.jrjlee.com/2011/08/working-with-documents-tab-on.html
+
+things to add from langford
+add classification column config and classification column to retention list (3 columns)
+
+my idea
+what about a "metadata column configured by library in each site? that gets copied to "library metadata column" would need a doc library settings page and another column in approval list
+
+
+NB workflow instance name for expiry must match whats in code "ExpiryWF"
+
+need to learn about noconflict, loading jquery  without conflicting with another version using custom action
+need to have some sort of key on config screen
+make expiry wf work for non-records

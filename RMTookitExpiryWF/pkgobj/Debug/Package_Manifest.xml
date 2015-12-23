@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="24cc1709-ae68-4287-af73-8fd8b93f1781" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="RMTookitExpiryWF.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="LAYOUTS\RMTookitExpiryWF\Workflow1\RMToolkitExpiryInitForm.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="RMToolkitExpiryWF_RMToolkitExpiryWF\Feature.xml" />
+  </FeatureManifests>
+</Solution>

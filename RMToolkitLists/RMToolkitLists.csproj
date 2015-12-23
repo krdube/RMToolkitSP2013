@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7491BF45-64CC-443B-85B3-EDFF13CE165E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RMToolkit</RootNamespace>
+    <AssemblyName>RMToolkit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\RMTookitLists\RMTookitLists.feature">
+      <FeatureId>{98c52f62-2129-452a-ba33-f5c3850efa16}</FeatureId>
+    </None>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{df637f9d-3f70-44e1-8b9f-617bc1c63adf}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{de8b801d-a928-4780-b00f-81b61290b147}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RMToolkitArchive\RecordForArchive\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{90778532-2026-4f6b-915e-1c0d03d0360e}</SharePointProjectItemId>
+    </None>
+    <None Include="RMToolkitDeletion\RecordForDeletion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{54a52b85-11b9-48fa-85de-10b0494f2de1}</SharePointProjectItemId>
+    </None>
+    <None Include="RMToolkitArchive\RMToolkitArchiveList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3640a973-7514-49fe-b36a-1a5a1ff68b97}</SharePointProjectItemId>
+    </None>
+    <None Include="RMToolkitArchive\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7498d056-fea3-4899-a0ed-7e217d668e50}</SharePointProjectItemId>
+    </None>
+    <None Include="RMToolkitDeletion\RMToolkitDeletionList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6eaf3d5f-56f4-4d05-8d78-37b48cb07b58}</SharePointProjectItemId>
+    </None>
+    <None Include="RMToolkitDeletion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bfaa6dbd-25d7-46c4-915b-da251e2e9f66}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Features\RMTookitLists\RMTookitLists.Template.xml">
+      <DependentUpon>RMTookitLists.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\RMToolkitLists\wrench.png" />
+    <Content Include="RMToolkitArchive\RecordForArchive\Elements.xml" />
+    <Content Include="RMToolkitArchive\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RMToolkitArchive\RMToolkitArchiveList\Elements.xml" />
+    <Content Include="RMToolkitArchive\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RMToolkitDeletion\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RMToolkitDeletion\RecordForDeletion\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RMToolkitDeletion\RMToolkitDeletionList\Elements.xml" />
+    <Content Include="RMToolkitDeletion\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="false" />
+</Project>

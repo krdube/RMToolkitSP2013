@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="fd246aa0-d3f3-4190-9e80-beb66dd51b1e" solutionId="fd246aa0-d3f3-4190-9e80-beb66dd51b1e" resetWebServer="false" name="RMToolkitDeletionButton" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="62c63212-b6e8-4cf2-9a50-a0d1dbbea7d6" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="9c07a79e-b241-4461-9d46-214f925a0db8" />
+  </projectItems>
+</package>

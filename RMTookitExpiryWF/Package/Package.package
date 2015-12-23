@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="24cc1709-ae68-4287-af73-8fd8b93f1781" solutionId="24cc1709-ae68-4287-af73-8fd8b93f1781" resetWebServer="false" sharePointProductVersion="15.0" name="RMTookitExpiryWF" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="de4d17d0-85d1-4206-8fda-a7fb28c4647e" />
+  </features>
+</package>

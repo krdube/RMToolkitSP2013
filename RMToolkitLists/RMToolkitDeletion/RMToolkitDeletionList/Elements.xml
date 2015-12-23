@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RMToolkitDeletionList"
+                OnQuickLaunch="TRUE"
+                TemplateType="10020"
+                Url="Lists/RMToolkitDeletionList"
+                Description="RMToolkit List for managing records destined for deletion according to their retention policy">
+  </ListInstance>
+</Elements>

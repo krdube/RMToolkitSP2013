@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="RMTookitExpiryWF" Description="Sets Expiry Date on Record" Id="de4d17d0-85d1-4206-8fda-a7fb28c4647e" ImageUrl="/RMToolkitConfig/TLOGO.png" ReceiverAssembly="RMTookitExpiryWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7d2cfb366231915d" ReceiverClass="RMTookitExpiryWF.Features.RMToolkitExpiryWF.RMToolkitExpiryWFEventReceiver" Scope="Site">
+  <Properties>
+    <Property Key="GloballyAvailable" Value="true" />
+  </Properties>
+  <ElementManifests>
+    <ElementManifest Location="Workflow1\Elements.xml" />
+  </ElementManifests>
+</Feature>

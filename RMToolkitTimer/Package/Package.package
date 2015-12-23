@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="df9312c4-e122-4dd6-83e4-18b8fc836d43" solutionId="df9312c4-e122-4dd6-83e4-18b8fc836d43" resetWebServer="false" sharePointProductVersion="15.0" name="RMToolkitTimer" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ba798efc-6208-4829-9bea-5687d6e315e2" />
+  </features>
+</package>

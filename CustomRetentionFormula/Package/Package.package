@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8918f4ae-1695-40cf-a55b-a682395d84cb" solutionId="8918f4ae-1695-40cf-a55b-a682395d84cb" resetWebServer="false" sharePointProductVersion="15.0" name="CustomRetentionFormula" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6f867153-c8d8-4e67-8861-5d416dc68b13" />
+  </features>
+</package>

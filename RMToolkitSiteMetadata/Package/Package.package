@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1dd166e7-81b3-47dc-bbc4-bb1ece10972a" solutionId="1dd166e7-81b3-47dc-bbc4-bb1ece10972a" resetWebServer="false" sharePointProductVersion="15.0" name="RMToolkitSiteMetadata" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="be4893cc-f8ca-4d84-bffb-b89070b7aa1f" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="cebef058-4040-43d7-8d1f-4d7e33118f3b" />
+  </projectItems>
+</package>

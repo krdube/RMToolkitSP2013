@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="703ced58-5f2d-4907-a94e-62ceb68cc757" solutionId="703ced58-5f2d-4907-a94e-62ceb68cc757" resetWebServer="false" name="RMToolkitRetentionFormula" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="bd3a4f89-e321-4e08-bee0-6bb50f6336a5" />
+  </features>
+</package>

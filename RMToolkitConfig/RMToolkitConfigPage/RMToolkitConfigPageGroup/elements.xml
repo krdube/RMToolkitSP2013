@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup Id="RMToolkitSettings"
+                     Title="RMToolkit"
+                     Location="Microsoft.SharePoint.Administration.Applications"
+                     Sequence="350"
+                     ImageUrl="/_layouts/15/images/RMToolkitConfig/TLOGO.png"/>
+                    <!--CentralAdmin_SystemSettings_FarmManagement_32x32.png"/>-->
+</Elements>

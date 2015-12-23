@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="3062fcf6-402b-435a-b1ff-321fdeac1b46" solutionId="3062fcf6-402b-435a-b1ff-321fdeac1b46" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="RMToolkitDeleteRecord">
+    <features>
+        <featureReference itemId="fbdead06-f9b9-4053-b84a-7543a52041eb" />
+    </features>
+</package>

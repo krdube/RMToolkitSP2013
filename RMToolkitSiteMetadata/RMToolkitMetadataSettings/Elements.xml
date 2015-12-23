@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+         Id="RMToolkitMetadata.SiteSettings"
+         GroupId="SiteAdministration"
+         Location="Microsoft.SharePoint.SiteSettings"
+         Rights="ManageWeb"
+         Sequence="200"
+         Title="RM Toolkit Metadata Settings"
+         Description="">
+    <UrlAction
+        Url="~site/_layouts/RMToolkitSiteMetadata/MetadataColumns.aspx" />
+  </CustomAction>
+</Elements>
+

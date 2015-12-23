@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://sptest/sites/rmtm3/</SharePointSiteUrl>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BB1F664B-9266-4fd6-B973-E1E44974B511}">
+        <ProjectStore>
+          <SharePointStartupItem>Workflow1</SharePointStartupItem>
+        </ProjectStore>
+        <ProjectItemStore Id="{e97f2f04-3597-4e17-b9fe-b67079b1a380}">
+          <DisplayName>RMTookitExpiryWF</DisplayName>
+          <HistoryList>Workflow History</HistoryList>
+          <HistoryListGuid>{fef33ee6-8722-4272-a7a9-b1e1eea69dcb}</HistoryListGuid>
+          <TaskList>Tasks</TaskList>
+          <TaskListGuid>{de3a83f9-9c13-4d8f-97fd-9d522b2f1b7b}</TaskListGuid>
+          <AutoAssociate>false</AutoAssociate>
+          <ManualStart>true</ManualStart>
+          <ListURL>http://sptest/sites/rmtm3/Lists/Announcements/AllItems.aspx</ListURL>
+          <TargetList>Announcements</TargetList>
+          <TargetListGuid>{950f541b-4863-457a-96e6-5349016ac32b}</TargetListGuid>
+          <StartOnCreate>true</StartOnCreate>
+          <StartOnChange>false</StartOnChange>
+        </ProjectItemStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

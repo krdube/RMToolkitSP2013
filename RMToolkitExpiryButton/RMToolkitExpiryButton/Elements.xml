@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+   Id="RMToolkit.ExpiryBtn"
+   Location="CommandUI.Ribbon"
+   Sequence="11"
+   RegistrationId="101"
+   RegistrationType="List">
+  
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+         Location="Ribbon.Documents.Groups._children">
+          <Group
+            Id="Ribbon.Documents.RMToolkit"
+            Sequence="32"
+            Description="RMToolkit"
+            Title="RMToolkit"
+            Command="EnableCustomGroup"
+            Template="Ribbon.Templates.RMToolkit">
+            <Controls Id="Ribbon.Documents.RMToolkit.Controls">
+              <Button
+               Id="Ribbon.Documents.ExpireRecord"
+               Command="ExpireRecords"
+               Image16by16="/_layouts/15/images/RMToolkit/expirerecord.png"
+               Image32by32="/_layouts/15/images/RMToolkit/expirerecord.png"
+               LabelText="Expire Records"
+               TemplateAlias="RowI"
+               ToolTipTitle="Expire Documents"
+               ToolTipDescription="Initiates the expiry worfkflow on the selected documents."
+               Sequence="35" />
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+        <!-- Console Group's Template -->
+        <CommandUIDefinition Location="Ribbon.Templates._children" >
+          <GroupTemplate Id="Ribbon.Templates.RMToolkit">
+            <Layout Title="RMToolkit" LayoutTitle="RMToolkit">
+              <Section Alignment ="Top" Type="OneRow">
+                <Row>
+                  <ControlRef DisplayMode ="Large" TemplateAlias="RowI"/>
+                </Row>
+              </Section>
+            </Layout>
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.Documents.Scaling._children">
+          <MaxSize Id="Ribbon.Documents.RMToolkit.Scaling.MaxSize" Sequence="35"
+                   GroupId="Ribbon.Documents.RMToolkit" Size="RMToolkit"/>
+        </CommandUIDefinition>
+
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="ExpireRecords" 
+                          EnabledScript="javascript:SP.ListOperation.Selection.getSelectedItems().length>=1;" 
+                          CommandAction="javascript:GRS.showExpiryModal();" />
+          
+        <CommandUIHandler Command="EnableCustomGroup" CommandAction =""/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction
+    Id="ExpireRecords"
+    Location="ScriptLink"
+    ScriptSrc="/_layouts/15/RMToolkit/js/ExpireBtnLibNS.js">
+  </CustomAction>
+</Elements>
+

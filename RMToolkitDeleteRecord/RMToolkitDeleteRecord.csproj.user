@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://sptest/sites/rmtm3/</SharePointSiteUrl>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BB1F664B-9266-4fd6-B973-E1E44974B511}">
+        <ProjectStore>
+          <SharePointStartupItem>RMToolkitDeleteRecord_NOTUSED</SharePointStartupItem>
+        </ProjectStore>
+        <ProjectItemStore Id="{6ecc6ccd-392d-42f7-8590-c50889db4459}">
+          <DisplayName>RMToolkitModifyRecordWF_DeleteRecord</DisplayName>
+          <HistoryList>Workflow History</HistoryList>
+          <HistoryListGuid>{f6819087-3a06-4191-9ba5-6acd70104d08}</HistoryListGuid>
+          <TaskList>Tasks</TaskList>
+          <TaskListGuid>{30d9087c-3c95-4141-b5b8-de777a706a12}</TaskListGuid>
+          <AutoAssociate>true</AutoAssociate>
+          <ManualStart>true</ManualStart>
+        </ProjectItemStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
